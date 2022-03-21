@@ -1,0 +1,9 @@
+<h1>New Clinic:</h1>
+<form>
+  <div class="field">
+    <label for="name">Name:</label>
+    <input type="text" [(ngModel)]="clinic.name" name="name" />
+  </div>
+
+  <button (click)="save()">Save</button>
+</form>

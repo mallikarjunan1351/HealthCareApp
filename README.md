@@ -22,3 +22,12 @@ Here are some improvements that could be done with more time.
 * Write tests for the components (There's tests only for the services)
 * Write e2e tests
 * Create a better interface layout
+
+Fix Node Module Issue
+
+Had the same issue. Open the file ../node_modules/@types/node/index.d.ts
+
+and remove the third slash
+
+// <reference lib="es2015" />
+compile again
